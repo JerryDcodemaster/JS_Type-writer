@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;1,100&family=Raleway:wght@100;200;400&display=swap');
+
+body {
+    font-family: 'Raleway', sans-serif;
+    height: 100vh;
+    background: #333 url('back.jpg') no-repeat center center / cover;
+    color: rgb(245, 238, 238);
+    overflow: hidden;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    padding: 0.3rem;
+}
+
+h1, h2 {
+    font-weight: 200;
+    margin: 0.4rem;
+}
+
+h1 {
+    font-size: 3.5rem;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #ccc;
+}
+
+/* Cursor */
+.txt-type > .txt {
+    border-right: 0.2rem solid #fff;
+}
+
+@media(min-width: 1200px) {
+    h1 {
+        font-size: 5rem;
+    }
+}
+
+@media(min-width: 800px) {
+    .container{
+        padding: 0 1rem;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+}
+
+@media(min-width: 500px) {
+    h1 {
+        font-size: 3rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+}
